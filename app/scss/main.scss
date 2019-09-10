@@ -33,6 +33,8 @@ body {
   margin-top: 1rem;
 }
 
+
+
 section {
   @include respond-to(xs) {
     padding: 50px 0 0 0;
@@ -58,7 +60,15 @@ button:focus {
   font-weight: 600;
   color: $blue;
   margin-bottom: 4rem;
+
+  &.main-general__title--initial  {
+    text-align: initial;
+    margin-top: 3rem;
+  }
 } 
+
+
+
 
 .navbar {
   background-color: transparent;
@@ -529,6 +539,57 @@ button:focus {
       background: $blue;
       border: 5px double $white;
     }
+  }
+}
+
+.main-comparison {
+  & img {
+    width: 90%;
+    object-fit: contain;
+  }
+  .main-comparison__img--blue {
+    color: #8fdbea;
+    filter: drop-shadow(-3px 1px 7px );
+  }
+
+  & h2 {
+    margin-bottom: 1rem;
+  }
+
+  .main-comparison__img--yellow {
+    color: #e2c83c;
+    filter: drop-shadow(-3px 1px 7px )
+  }
+
+  .main-comparison__icon {
+    width: 4rem;
+    padding: 1rem;
+    background: whitesmoke;
+    border-radius: 50%;
+  }
+
+  .main-comparison__list {
+    list-style: none;
+    padding: 0;
+    margin-right: 1rem; 
+
+    & li {
+      margin-bottom: .5rem;
+    }
+  }
+
+  .main-comparison__box-icon {
+    display: flex;
+  }
+
+  .main-comparison__flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .main-comparison__margin {
+    margin-top: 3rem;
   }
 }
 
