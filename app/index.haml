@@ -1,0 +1,348 @@
+!!!
+%html{lang: "en"}
+  %head
+    %meta{charset: "UTF-8"}/
+    %meta{content: "width=device-width, initial-scale=1.0", name:"viewport"}/
+    %title Ecokclimatización
+    %link{rel: "stylesheet", href:"assets/css/bootstrap.min.css"}/
+    %link{rel: "stylesheet", href:"assets/css/font-awesome.css"}/
+    %link{rel: "stylesheet", href:"assets/css/font-awesome.css"}/
+    %link{rel: "stylesheet", href:"assets/css/slick-theme.css"}/
+    %link{rel: "stylesheet", href:"assets/css/slick.css"}/
+    %link{rel: "stylesheet", href:"assets/css/main.css"}/
+    %link{href:"https://fonts.googleapis.com/css?family=Poppins:400,500,700,800,900&display=swap", rel:"stylesheet"}/
+  %body
+    %header#home
+      %nav.navbar.navbar-expand-lg.fixed-top.navbar-fixed-js
+        .container
+          %button.navbar-toggler.p-2.border-0.hamburger.hamburger--elastic.ml-autos{"data-toggle" => "offcanvas", :type => "button"}
+            %span.hamburger-box
+              %span.hamburger-inner
+          .navbar-collapse.offcanvas-collapse
+            %ul.navbar-nav.mr-autos
+              %li.nav-item
+                %a.nav-link.active{:href => "#home"} Inicio
+              %li.nav-item
+                %a.nav-link{:href => "#about"} Modelos
+              %li.nav-item
+                %a.nav-link{:href => "#training"} Certificaciones
+              %li.nav-item.main-brand__top
+                .main-brand
+                  %a.navbar-brand{:href => "#"}
+                    %img#iso{:src => "assets/img/logo-white.png"}/ 
+              %li.nav-item.main-brand__fixed
+                .main-brand
+                  %a.navbar-brand{:href => "#"}
+                    %img#iso{:src => "assets/img/logo.png"}/ 
+            
+              %li.nav-item
+                %a.nav-link{:href => "#client"} Clientes
+              %li.nav-item
+                %a.nav-link{:href => "#client"} Beneficios
+              %li.nav-item
+                %a.nav-link{:href => "#service"} Contáctanos
+    %section.main-banner
+      .main-banner__content
+        .main-banner__item
+          .mask
+            .main-banner__text
+              .main-banner__title
+                %p Liderando la innovación en Bioclimatización
+          .main-banner__img
+            %img{ :src => "http://www.logisticaprofesional.com/es/img2/2015/07/bioclimatizacion_biocool-17311.jpg"}/
+        .main-banner__item
+          .mask
+            .main-banner__text
+              .main-banner__title
+                %p Liderando la innovación en Bioclimatización
+          .main-banner__img
+            %img{:src => "https://www.alitersoluciones.es/wp-content/uploads/2019/08/Ventajas-de-la-bioclimatizaci%C3%B3n.jpg"}/
+    %section.main-model
+      .padding-top-bottom.container
+        %h2.main-general__title
+          Modelos de Climatizadores 
+          %br/
+          Evaporativos
+        .main-models__carousel.row
+          .col-lg-4
+            .main-models__item
+              .main-models__img
+                %img{:src => "assets/img/item-1.png"}  
+              .main-models__body
+                %h2.main-models__title
+                  Bio 18/AV
+                %p 
+                  Salida de aire superior / inferior 18.000 m3/h
+          .col-lg-4
+            .main-models__item
+              .main-models__img
+                %img{:src => "assets/img/item-1.png"}  
+              .main-models__body
+                %h2.main-models__title
+                  Bio 18/AV
+                %p 
+                  Salida de aire superior / inferior 18.000 m3/h
+          .col-lg-4
+            .main-models__item
+              .main-models__img
+                %img{:src => "assets/img/item-1.png"}  
+              .main-models__body
+                %h2.main-models__title
+                  Bio 18/AV
+                %p 
+                  Salida de aire superior / inferior 18.000 m3/h
+    %section.main-points
+      .container.padding-top-bottom 
+        %h2.main-general__title
+          Puntos fuertes climatizador
+          %br/
+          Evaporativo Biocool
+        .row
+          .col-lg-6
+            .main-points__item
+              .main-points__icon
+                %img(src="assets/img/ozone.svg" alt="")/
+              .main-points__description
+                %h2.main-points__title
+                  Ozono
+                %ul
+                  %li
+                    Mantiene limpio el equipo sin necesidad de productos adicionales.
+                  %li
+                    Elimina el 100% de las bácterias que puedan contener agua estancada en menos de una hora.
+          .col-lg-6
+            .main-points__item
+              .main-points__icon
+                %img(src="assets/img/electrical-hazard.svg" alt="")/
+              .main-points__description
+                %h2.main-points__title
+                  Desconector externo
+                %ul
+                  %li
+                    Incorpora fusible de protección del equipo.
+                  %li
+                    Mantenimientos rápidos y seguros.
+          .col-lg-6
+            .main-points__item
+              .main-points__icon
+                %img(src="assets/img/air-filter.svg" alt="")/
+              .main-points__description
+                %h2.main-points__title
+                  Prefiltros
+                %ul
+                  %li
+                    Evita introducir partículas contaminantes en el interior de la nave.
+                  %li
+                    Facilita el funcionamiento y el rendimiento del equipo en entornos agresivos.
+          .col-lg-6
+            .main-points__item
+              .main-points__icon
+                %img(src="assets/img/hepa-filter.svg" alt="")/
+              .main-points__description
+                %h2.main-points__title
+                  Cierre conducto
+                %ul
+                  %li
+                    Apertura automática.
+                  %li
+                    Evita la introducción de aire frío del exterior en invierno
+                    
+    %section.main-certifications
+      .container.padding-top-bottom 
+        %h2.main-general__title
+          BIOCOOL 
+          %br/
+          Certificaciones y Premios
+        .main-certifications__carousel
+          .main-certifications__item
+            .main-certifications__img
+              %img(src="assets/img/Certificaciones/ce.jpg" alt="")/
+          .main-certifications__item
+            .main-certifications__img
+              %img(src="assets/img/Certificaciones/Dise.png" alt="")/
+          .main-certifications__item
+            .main-certifications__img
+              %img(src="assets/img/Certificaciones/eficiencia-ahorro.png" alt="")/
+          .main-certifications__item
+            .main-certifications__img
+              %img(src="assets/img/Certificaciones/inge.png" alt="")/
+          .main-certifications__item
+            .main-certifications__img
+              %img(src="assets/img/Certificaciones/logo-smart-city-cooler-1.jpg" alt="")/
+          .main-certifications__item
+            .main-certifications__img
+              %img(src="assets/img/Certificaciones/premio-nan.png" alt="")/
+          .main-certifications__item
+            .main-certifications__img
+              %img(src="assets/img/Certificaciones/SGS.gif" alt="")/
+    %section.main-clients
+      .container.padding-top-bottom 
+        %h2.main-general__title
+          Nuestros Clientes
+        .main-clients__carousel
+          .main-clients__item
+            .main-clients__img
+              %img(src="assets/img/Clientes/araucopro.png" alt="")/
+          .main-clients__item
+            .main-clients__img
+              %img(src="assets/img/Clientes/cristales-toro.png" alt="")/
+          .main-clients__item
+            .main-clients__img
+              %img(src="assets/img/Clientes/falabella.png" alt="")/
+          .main-clients__item
+            .main-clients__img
+              %img(src="assets/img/Clientes/fit-logo.png" alt="")/
+          .main-clients__item
+            .main-clients__img
+              %img(src="assets/img/Clientes/gim_energy.png" alt="")/
+          .main-clients__item
+            .main-clients__img
+              %img(src="assets/img/Clientes/Logo-Bodenor-.png" alt="")/
+          .main-clients__item
+            .main-clients__img
+              %img(src="assets/img/Clientes/Logo-Loginsa.png" alt="")/
+          .main-clients__item
+            .main-clients__img
+              %img(src="assets/img/Clientes/logo-mall-plaza.png" alt="")/
+          .main-clients__item
+            .main-clients__img
+              %img(src="assets/img/Clientes/logo-wellness.png" alt="")/
+          .main-clients__item
+            .main-clients__img
+              %img(src="assets/img/Clientes/orange--o71h9wmp7ujaoikgpgipbciur00bazk91wlhh451yk.png" alt="")/
+          .main-clients__item
+            .main-clients__img
+              %img(src="assets/img/Clientes/smart-fit.png" alt="")/
+          .main-clients__item
+            .main-clients__img
+              %img(src="assets/img/Clientes/sodimac.png" alt="")/
+          .main-clients__item
+            .main-clients__img
+              %img(src="assets/img/Clientes/tottus.png" alt="")/
+    %section.main-benefits
+      .container.padding-top-bottom
+        %h2.main-general__title
+          Beneficios de la climatización evaporativa,
+          %br/
+          explotación
+        .row
+          .col-lg-6 
+            %img.main-benefits__img(src="assets/img/funcionamiento.gif" alt="")/
+          .col-lg-6
+            .main-benefits__carousel
+              .main-benefits__item
+                .main-benefits__description
+                  %p
+                    Explotar los beneficios de la climatización evaporativa es la seña de identidad de Biocool. Conseguir temperaturas de confort en diferentes situaciones y ambientes es nuestra mejor carta de presentación. Estudiamos y analizamos las características de las instalaciones antes de poner en marcha una solución. Sólo así se entiende el cien por ciento de satisfacción entre nuestros clientes.
+                  %ul
+                    %li 
+                      %i.fa.fa-caret-right 
+                      Reduce la temperatura entre 5ºc y 15 ºc según condiciones exteriores.
+                    %li
+                      %i.fa.fa-caret-right 
+                      Consume un 90% menos que el aire acondicionado sin necesidad de cerrar puertas y ventanas
+                    %li
+                      %i.fa.fa-caret-right 
+                      Mejora la calidad del aire desplazando polvos y olores
+                    %li
+                      %i.fa.fa-caret-right 
+                      Permite climatización de zonas puntuales
+                    %li
+                      %i.fa.fa-caret-right 
+                      Renovación 100% del aire exterior filtrado y fresco
+                    %li
+                      %i.fa.fa-caret-right 
+                      Recude la electricidad estática
+                    %li
+                      %i.fa.fa-caret-right 
+                      Innovación y sostenibilidad
+              .main-benefits__item
+                .main-benefits__description 
+                  %p
+                    Los climatizadores evaporativos son altamente competitivos por los beneficios de la climatización evaporativa, tanto en costos de capital y adquisición, como en costos de explotación y mantenimiento, especialmente si se compara con la equivalente instalación de aire acondicionado por compresor. De este modo, los costos operativos de los evaporativos son similares a los de un ventilador. Su costo de instalación es bajo, ya que sólo precisa de una toma de agua y una fuente de energía eléctrica sin ninguna canalización complementaria. Su mantenimiento es muy económico y al incorporar pocas piezas de trabajo se reducen las probabilidades de producción de fallos. Destaca también la sencillez en el mantenimiento de los filtros y los distribuidores de agua. Todas las ventajas de eficiencia energética que caracterizan los sistemas de bioclimatización redundan en un ahorro económico significativo en la cuenta de resultados de las empresas usuarias del sistema. 
+              .main-benefits__item
+                .main-benefits__description
+                  %p
+                    Aunque no existen estudios en Chile en relación al ahorro energético global que podría producir la utilización masiva de la climatización evaporativa, sí existen datos de su aplicación en Estados Unidos, donde se utiliza desde hace más de 50 años de forma masiva y a la que denominan “Cooling”. Sólo en la zona Sur de EEUU se han identificado 4 millones de evaporativos instalados en residenciales, que han supuesto un ahorro aproximado de 11,8 millones de barriles de petróleo anualmente y 3 billones de Kg. de emisión de dióxido de carbono, comparándolo con el equivalente al sistema de aire por compresión. A estas cifras hay que sumarles el ahorro proporcionado por la utilización de los evaporativos en la industria, el comercio, la agricultura, y la ganadería, que no han sido valorados en el informe, pero que son todavía mayores.
+    %section.main-details
+      .container.padding-top-bottom
+        .row
+          .col-lg-4
+            .main-details__item
+              .main-details__description
+                %h2.main-details__title
+                  Intercambiadores de calor
+                %p 
+                  Alta eficiencia con la máxima calidad y rendimiento.
+              %img{:src => "assets/img/i-1.png"}/
+            .main-details__item
+              .main-details__description
+                %h2.main-details__title
+                  Material
+                %p 
+                  Fabricado en ABS, de alta dureza y alta resistencia a elevadas temperaturas. 
+              %img{:src => "assets/img/i-2.png"}/
+            .main-details__item
+              .main-details__description
+                %h2.main-details__title
+                  Motores altamente eficaces
+                %p 
+                  Mínimo consumo energético y mínimo mantenimiento. 
+              %img{:src => "assets/img/i-5.png"}/
+          .col-lg-4
+            .main-details__img
+              %img{:src => "https://ecokclimatizacion.cl/wp-content/uploads/2019/08/ingeniera.png"}/
+          .col-lg-4
+            .main-details__item
+              %img{:src => "assets/img/i-3.png"}/
+              .main-details__description
+                %h2.main-details__title
+                  Diseño de alta calidad
+                %p 
+                  Desarrollo de la carcasa con óptimos materiales que le dan alta resistencia a ambientes agresivos.
+            .main-details__item
+              %img{:src => "assets/img/i-4.png"}/
+              .main-details__description
+                %h2.main-details__title
+                  Alto rendimiento
+                %p 
+                  Diseño incrementado para optimizar la eficiencia y el área a climatizar.
+            .main-details__item
+              %img{:src => "assets/img/i-6.png"}/
+              .main-details__description
+                %h2.main-details__title
+                  Lamas Orientales
+                %p 
+                  Solución innovadora que permite ajustar la posición mas óptima.
+    %footer.main-contact 
+      .container.padding-top-bottom
+        %h2.main-general__title
+          Contáctanos
+        .main-footer__container
+          %form
+            %input{:type=>"text", :placeholder=>"Nombre" }/
+            %input{:type=>"mail", :placeholder=>"Correo Electrónico" }/
+            %input{:type=>"number", :placeholder=>"Número telefónico" }/
+            %input{:type=>"text", :placeholder=>"Asunto" }/
+            %textarea{ :placeholder=>"Mensaje" }
+            %a.main-general__button{:href => "#"} Enviar
+    .main-powered  
+      %p
+        Copyright ©2019 Todos los derechos reservados | Diseño y desarrollo por 
+        %a{:href=>"https:cmarketing.cl"} Contact Marketing
+
+         
+
+
+
+                      
+
+
+
+                  
+            
+    %script{src: "assets/js/jquery.min.js"}
+    %script{src: "assets/js/bootstrap.min.js"}
+    %script{src: "assets/js/slick.min.js"}
+    %script{src: "assets/js/setting-slick.js"}
+    %script{src: "assets/js/main.js"}
