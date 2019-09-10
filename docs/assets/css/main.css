@@ -1046,6 +1046,10 @@ button:focus {
   background: #f5f5f5;
 }
 
+.main-details .padding-top-bottom {
+  padding-bottom: 0;
+}
+
 .main-details .main-details__img img {
   width: 100%;
   margin-left: -1.5rem;
