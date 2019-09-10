@@ -1136,3 +1136,65 @@ button:focus {
 .main-comparison .main-comparison__margin {
   margin-top: 3rem;
 }
+
+.card {
+  border: 0;
+}
+
+.card-header {
+  background-color: #fff;
+  margin-bottom: 0 !important;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+}
+
+.faq-btn {
+  color: #174183;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq-btn:hover, .faq-btn:focus {
+  text-decoration: none;
+  color: #174183;
+}
+
+.faq-btn[aria-expanded="true"] i {
+  transform: rotate(-90deg);
+}
+
+.main-video .main-video__bg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.main-video .main-video__bg video {
+  width: 100%;
+}
+
+.main-video .main-general__title {
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+}
+
+.main-video ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-video ul li {
+  margin-right: 1rem;
+}
+
+.main-video ul li h2 {
+  font-size: 1.5rem;
+}
+
+.main-video ul li p {
+  margin-bottom: 2rem;
+}
